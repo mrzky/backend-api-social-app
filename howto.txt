@@ -1,0 +1,8 @@
+(-)create new project
+	->composer create-project --prefer-dist laravel/laravel notation-learn-api -vvv
+(-)buat model beserta migration file(adl mmbuat tabel)
+	->cd folderprojectnys
+	->php artisan make:model Colleague -c -m
+(-)edit migration file sesuai dengan tabel di folder database/migration/ 
+   kemudian jalankan perintah ->php artisan migrate
+(-)
